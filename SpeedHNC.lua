@@ -11,7 +11,7 @@ gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 local frame = Instance.new("Frame", gui)
 frame.Size = UDim2.new(0, 200, 0, 90)
 frame.Position = UDim2.new(0.1, 0, 0.4, 0)
-frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 frame.BorderSizePixel = 0
 Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 12)
 
